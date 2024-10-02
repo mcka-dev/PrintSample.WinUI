@@ -14,6 +14,9 @@ namespace PrintSample
         public MainWindow()
         {
             this.InitializeComponent();
+
+            ExtendsContentIntoTitleBar = true;
+
             RegisterPrint();
         }
 
